@@ -37,6 +37,7 @@ KG_Competitions/
 ├── submission.csv              # Generated predictions (output file)
 ├── README.md                   # Project documentation
 └── .gitignore                  # Git ignore rules
+```
 
 ## 🚀 Getting Started
 
@@ -46,7 +47,6 @@ Install required packages:
 
 ```bash
 pip install -r requirements.txt
-```
 
 ### Usage
 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
    - `Download train.csv and test.csv.`
 
-   -`Create a folder named data/ in the project root and place the files there.`
+   - `Create a folder named data/ in the project root and place the files there.`
 
 3. **Run the notebook:**
    - Open `Loan_payback.ipynb` in Jupyter Notebook or JupyterLab
@@ -181,6 +181,7 @@ This project is part of the [Kaggle Playground Series - Season 5, Episode 11](ht
 
 **Author:** Rostislav Sidenko  
 **Competition:** [Kaggle Playground Series - Season 5, Episode 11](https://www.kaggle.com/competitions/playground-series-s5e11/leaderboard)
+
 
 
 
