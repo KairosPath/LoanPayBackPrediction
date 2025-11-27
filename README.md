@@ -27,22 +27,16 @@ This project explores various machine learning approaches to predict loan repaym
 - ✅ Hyperparameter tuning for base models
 - ✅ Proper data leakage prevention using cross-validation
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
+```text
 KG_Competitions/
-│
-├── data/
-│   ├── train.csv              # Training dataset
-│   ├── test.csv                # Test dataset
-│   └── sample_submission.csv   # Sample submission format
 │
 ├── Loan_payback.ipynb          # Main notebook with complete pipeline
 ├── requirements.txt            # Python dependencies
 ├── submission.csv              # Generated predictions (output file)
 ├── README.md                   # Project documentation
 └── .gitignore                  # Git ignore rules
-```
 
 ## 🚀 Getting Started
 
@@ -61,9 +55,12 @@ pip install -r requirements.txt
    git clone https://github.com/KairosPath/LoanPayBackPrediction
    ```
 
-2. **Ensure data files are in the `data/` directory:**
-   - `data/train.csv`
-   - `data/test.csv`
+2. **Download the Dataset:**
+   - `Go to the Competition Data Page.`
+
+   - `Download train.csv and test.csv.`
+
+   -`Create a folder named data/ in the project root and place the files there.`
 
 3. **Run the notebook:**
    - Open `Loan_payback.ipynb` in Jupyter Notebook or JupyterLab
@@ -184,6 +181,7 @@ This project is part of the [Kaggle Playground Series - Season 5, Episode 11](ht
 
 **Author:** Rostislav Sidenko  
 **Competition:** [Kaggle Playground Series - Season 5, Episode 11](https://www.kaggle.com/competitions/playground-series-s5e11/leaderboard)
+
 
 
 
