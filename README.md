@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/KairosPath/LoanPayBackPrediction
    cd KG_Competitions
    ```
 
@@ -185,4 +185,5 @@ This project is part of the [Kaggle Playground Series - Season 5, Episode 11](ht
 
 **Author:** Rostislav Sidenko  
 **Competition:** [Kaggle Playground Series - Season 5, Episode 11](https://www.kaggle.com/competitions/playground-series-s5e11/leaderboard)
+
 
