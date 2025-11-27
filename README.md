@@ -47,7 +47,7 @@ Install required packages:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ### Usage
 
 1. **Clone the repository:**
@@ -56,11 +56,11 @@ pip install -r requirements.txt
    ```
 
 2. **Download the Dataset:**
-   - `Go to the Competition Data Page.`
+   - Go to the Competition Data Page.
 
-   - `Download train.csv and test.csv.`
+   - Download train.csv and test.csv.
 
-   - `Create a folder named data/ in the project root and place the files there.`
+   - Create a folder named data/ in the project root and place the files there.
 
 3. **Run the notebook:**
    - Open `Loan_payback.ipynb` in Jupyter Notebook or JupyterLab
@@ -181,6 +181,7 @@ This project is part of the [Kaggle Playground Series - Season 5, Episode 11](ht
 
 **Author:** Rostislav Sidenko  
 **Competition:** [Kaggle Playground Series - Season 5, Episode 11](https://www.kaggle.com/competitions/playground-series-s5e11/leaderboard)
+
 
 
 
