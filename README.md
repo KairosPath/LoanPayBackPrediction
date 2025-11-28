@@ -118,7 +118,7 @@ Tested and evaluated multiple models:
 - ❌ Stacking: Performance degraded compared to individual models
 - ❌ Blending: All methods performed worse (0.9185-0.9189 ROC AUC)
 
-## 🔍 Key Findings & Challenges
+## Key Findings & Challenges
 
 ### Feature Engineering
 - **Challenge:** Extensive feature engineering (ratio features, multiplication features) did not improve results
@@ -139,7 +139,7 @@ Tested and evaluated multiple models:
 - **Result:** Tuning CatBoost led to worse results (0.9208) due to overfitting
 - **Decision:** Used default CatBoost parameters in final version
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **Libraries:**
@@ -151,7 +151,7 @@ Tested and evaluated multiple models:
   - `catboost` - Gradient boosting with categorical feature handling
   - `matplotlib` & `seaborn` - Data visualization
 
-## 📈 Model Performance Summary
+## Model Performance Summary
 
 ### Base Models (Validation Set)
 - CatBoost: **0.922630** ROC AUC
@@ -181,6 +181,7 @@ This project is part of the [Kaggle Playground Series - Season 5, Episode 11](ht
 
 **Author:** Rostislav Sidenko  
 **Competition:** [Kaggle Playground Series - Season 5, Episode 11](https://www.kaggle.com/competitions/playground-series-s5e11/leaderboard)
+
 
 
 
