@@ -8,14 +8,14 @@
 
 A machine learning project that predicts whether a loan will be paid back based on borrower characteristics and loan details. This project achieved **top 25% ranking** in the [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s5e11).
 
-## 📊 Results
+## Results
 
 - **Final Model Performance:** 0.9230 ROC AUC on validation set
 - **Best Base Model:** CatBoost (0.9226 ROC AUC)
 - **Improvement:** Meta-model ensemble improved performance by 0.0004 ROC AUC over the best individual model
 - **Competition Ranking:** Top 25%
 
-## 🎯 Project Overview
+## Project Overview
 
 This project explores various machine learning approaches to predict loan repayment. The final solution uses a **meta-model ensemble approach** that combines predictions from multiple gradient boosting models (CatBoost, LightGBM, and XGBoost) to achieve improved performance.
 
@@ -27,7 +27,7 @@ This project explores various machine learning approaches to predict loan repaym
 - ✅ Hyperparameter tuning for base models
 - ✅ Proper data leakage prevention using cross-validation
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 KG_Competitions/
@@ -39,7 +39,7 @@ KG_Competitions/
 └── .gitignore                  # Git ignore rules
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -67,7 +67,7 @@ pip install -r requirements.txt
    - Run all cells to generate predictions
    - Final predictions will be saved as `submission.csv`
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Exploratory Data Analysis (EDA)
 
@@ -163,13 +163,13 @@ Tested and evaluated multiple models:
 - LGBM Meta-model: **0.923016** ROC AUC
 - CatBoost Meta-model: **0.922411** ROC AUC
 
-## 📝 Notes
+## Notes
 
 - The project uses proper cross-validation techniques to prevent data leakage
 - All models are trained with `random_state=42` for reproducibility
 - The final submission uses the XGBoost meta-model as it showed the best performance on validation set
 
-## 🤝 Contributing
+## Contributing
 
 This is a competition project. Feel free to explore the code and methodology!
 
@@ -181,6 +181,7 @@ This project is part of the [Kaggle Playground Series - Season 5, Episode 11](ht
 
 **Author:** Rostislav Sidenko  
 **Competition:** [Kaggle Playground Series - Season 5, Episode 11](https://www.kaggle.com/competitions/playground-series-s5e11/leaderboard)
+
 
 
 
